@@ -1,5 +1,5 @@
 # logicentro
-# Projeto de Logística
+# Projeto de Logística 
 
 Este projeto é um sistema de gerenciamento de logística desenvolvido em Django. Ele permite o cadastro e a gestão de veículos, motoristas, empresas e usuários, facilitando o controle e a operação logística.
 
@@ -13,9 +13,9 @@ Este projeto é um sistema de gerenciamento de logística desenvolvido em Django
 
 ## Tecnologias Utilizadas
 
-- Django
-- Django REST Framework
-- SQLite (ou outro banco de dados, se aplicável)
+- Django;
+- Django REST Framework;
+- SQLite (possibilidade de alteração de banco de dados).
 
 ## Estrutura do Projeto
 
