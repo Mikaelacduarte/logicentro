@@ -46,7 +46,7 @@ Após isso basta colocar no Postman uma das url's abaixo descritas e fazer requi
 
 # Documentação da API
 
-Esta API permite gerenciar veículos, motoristas, operações, confrontos, usuários e empresas. A API foi construída usando **Django REST Framework** e segue os padrões RESTful.
+Esta API permite gerenciar veículos, motoristas, operações, confrontos, usuários e empresas. A API foi construída usando **Django REST Framework** e segue os padrões RESTful
 
 ### Base URL:
 ```
