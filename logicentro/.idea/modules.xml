@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/projeto-mika.iml" filepath="$PROJECT_DIR$/.idea/projeto-mika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/logicentro.iml" filepath="$PROJECT_DIR$/.idea/logicentro.iml" />
     </modules>
   </component>
 </project>
