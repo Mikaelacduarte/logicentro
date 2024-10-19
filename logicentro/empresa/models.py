@@ -14,8 +14,8 @@ class Empresa(models.Model):
     ]
     situacao = models.CharField(max_length=1, choices=SITUACAO_CHOICES)
 
-    # class Meta:
-    #     db_table = 'tb_empresa'
-    #
-    # def __str__(self):
-    #     return self.nome
+    class Meta:
+        db_table = 'tb_empresa'
+
+    def __str__(self):
+        return self.nome

@@ -24,7 +24,7 @@ class Confronto(models.Model):
     observacao = models.CharField(max_length=45, null=True, blank=True)
 
     class Meta:
-        # db_table = 'tb_confronto'  # Adicionado para refletir o nome da tabela
+        db_table = 'tb_confronto'  # Adicionado para refletir o nome da tabela
         indexes = [
             models.Index(fields=['operacao'], name='idx_confronto_operacao'),
             models.Index(fields=['usu_confronto'], name='idx_confronto_usuario'),

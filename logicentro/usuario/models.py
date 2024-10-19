@@ -49,6 +49,10 @@ class Usuario(AbstractBaseUser):
 
     objects = UsuarioManager()
 
+    class Meta:
+        db_table = 'tb_usuario'
+
+
     def __str__(self):
         return self.email
 

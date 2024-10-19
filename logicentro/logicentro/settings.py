@@ -91,8 +91,15 @@ REST_FRAMEWORK = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'logicentro',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',  # Ou o IP do seu servidor MySQL, se estiver em outro lugar.
+        'PORT': '3306',       # A porta padrão do MySQL
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        },
     }
 }
 

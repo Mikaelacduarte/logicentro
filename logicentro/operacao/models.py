@@ -32,7 +32,7 @@ class Operacao(models.Model):
     nro_lacre = models.IntegerField()
 
     class Meta:
-        # db_table = 'tb_operacao'  # Alinhado com o SQL
+        db_table = 'tb_operacao'  # Alinhado com o SQL
         indexes = [
             models.Index(fields=['veiculo'], name='idx_operacao_veiculo'),
             models.Index(fields=['motorista'], name='idx_operacao_motorista'),

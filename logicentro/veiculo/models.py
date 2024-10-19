@@ -13,5 +13,5 @@ class Veiculo(models.Model):
     ]
     situacao = models.CharField(max_length=1, choices=SITUACAO_CHOICES)
 
-    # class Meta:
-    #     db_table = 'tb_veiculo'  # Alinhado com o SQL
+    class Meta:
+        db_table = 'tb_veiculo'  # Alinhado com o SQL
