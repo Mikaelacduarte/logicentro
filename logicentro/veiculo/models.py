@@ -15,3 +15,6 @@ class Veiculo(models.Model):
 
     class Meta:
         db_table = 'tb_veiculo'  # Alinhado com o SQL
+
+    def __str__(self):
+        return self.placa

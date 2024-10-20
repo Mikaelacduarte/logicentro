@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'veiculo',
     'empresa',
     'motorista',
-    'usuario',
     'operacao',
     'confronto'
 ]
@@ -84,6 +83,9 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend'
+    ]
 }
 
 # Database
@@ -92,7 +94,7 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'logicentro',
+        'NAME': 'logicentro2',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',  # Ou o IP do seu servidor MySQL, se estiver em outro lugar.
@@ -144,5 +146,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-AUTH_USER_MODEL = 'usuario.Usuario'

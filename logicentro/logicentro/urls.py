@@ -22,7 +22,6 @@ urlpatterns = [
     path('api/', include('veiculo.urls')),
     path('api/', include('empresa.urls')),
     path('api/', include('motorista.urls')),
-    path('api/', include('usuario.urls')),
     path('api/', include('operacao.urls')),
     path('api/', include('confronto.urls'))
 ]
