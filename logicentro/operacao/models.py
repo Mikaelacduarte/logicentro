@@ -19,7 +19,7 @@ class Operacao(models.Model):
 
     dta_entrada = models.DateField()
 
-    status = models.CharField(max_length=45, default="Pendente")
+    status = models.CharField(max_length=45, default="Pendente") #Quadno faz o confronto fica como Concluído
 
     nro_mdfe = models.IntegerField(null=True, blank=True)
     nro_notafiscal = models.IntegerField(null=True, blank=True)

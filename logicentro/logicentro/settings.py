@@ -94,7 +94,7 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'logicentro2',
+        'NAME': 'logicentro3',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',  # Ou o IP do seu servidor MySQL, se estiver em outro lugar.
