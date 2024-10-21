@@ -9,13 +9,14 @@ Este projeto é um sistema de gerenciamento de logística desenvolvido em Django
 - **Cadastro de Veículos**: Registro e gerenciamento de veículos disponíveis para transporte.
 - **Cadastro de Motoristas**: Gerenciamento de motoristas e suas informações.
 - **Cadastro de Empresas**: Registro de empresas envolvidas nas operações logísticas.
-- **Autenticação de Usuários**: Implementação de autenticação e geração de tokens para acesso seguro.
+- **Autenticação de Usuários**: Implementação de autenticação e geração de tokens para acesso seguro. (ainda em desenvolvimento)
+- **Confronto**: 
 
 ## Tecnologias Utilizadas
 
 - Django;
 - Django REST Framework;
-- SQLite (possibilidade de alteração de banco de dados).
+- MySQL.
 
 ## Estrutura do Projeto
 
