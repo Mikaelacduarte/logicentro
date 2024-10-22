@@ -15,6 +15,7 @@ class Confronto(models.Model):
     # Status do confronto
     status = models.CharField(max_length=45) #inconsistente ou concluido
 
+    comentario = models.TextField()
     # Justificativa do confronto
     # justificativa = models.CharField(max_length=45)
 

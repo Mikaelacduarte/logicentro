@@ -25,6 +25,7 @@ class ConfrontoViewSet(viewsets.ModelViewSet):
         nro_mdfe = data.get('nro_mdfe')
         nro_notafiscal = data.get('nro_notafiscal')
         nro_lacre = data.get('nro_lacre')
+        comentario = data.get('comentario')
 
         # Lista para armazenar campos inconsistentes
         campos_inconsistentes = []
@@ -59,13 +60,17 @@ class ConfrontoViewSet(viewsets.ModelViewSet):
         if operacao.nro_lacre is not None and operacao.nro_lacre != nro_lacre:
             campos_inconsistentes.append('nro_lacre')
 
+        if comentario is None:
+            return Response({'error': 'Não é possível cadastrar um confronto sem adicionar um comentário.'}, status=status.HTTP_404_NOT_FOUND)
+
         # Definir o status do confronto com base nas inconsistências
         status_confronto = 'Concluído' if not campos_inconsistentes else 'Inconsistente'
 
         # Criar e salvar o confronto
         confronto = Confronto.objects.create(
             operacao=operacao,
-            status=status_confronto
+            status=status_confronto,
+            comentario=comentario
         )
 
         #atualizando o status da operação após o confronto
