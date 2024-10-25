@@ -23,5 +23,6 @@ urlpatterns = [
     path('api/', include('empresa.urls')),
     path('api/', include('motorista.urls')),
     path('api/', include('operacao.urls')),
-    path('api/', include('confronto.urls'))
+    path('api/', include('confronto.urls')),
+    path('api/', include('usuario.urls'))
 ]

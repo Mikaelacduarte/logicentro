@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'empresa',
     'motorista',
     'operacao',
-    'confronto'
+    'confronto',
+    'usuario'
 ]
 
 MIDDLEWARE = [
@@ -94,7 +95,7 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'logicentro2',
+        'NAME': 'logicentro3',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',  # Ou o IP do seu servidor MySQL, se estiver em outro lugar.
@@ -146,3 +147,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'usuario.Usuario'

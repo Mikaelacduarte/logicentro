@@ -6,9 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="769ba780-c3e1-4aaa-b6f5-680ed0a3655a" name="Changes" comment="Ajustes no banco">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confronto/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/confronto/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confronto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/confronto/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0002_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0003_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0004_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0005_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0006_confronto_comentario_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0007_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/0008_alter_confronto_dta_confronto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confronto/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/empresa/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logicentro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/logicentro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicentro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/logicentro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorista/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operacao/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operacao/migrations/0002_alter_operacao_dta_entrada_alter_operacao_dta_saida.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veiculo/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veiculo/migrations/0002_alter_veiculo_options.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
