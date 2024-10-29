@@ -37,6 +37,9 @@ class UsuarioManager(BaseUserManager):
 
 
 class Usuario(AbstractBaseUser):
+    class Meta:
+        db_table = 'tb_usuario'  # Alinhado com o SQL
+
     id_usuario = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=50)
     email = models.EmailField(max_length=50, unique=True)

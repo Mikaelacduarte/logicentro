@@ -97,11 +97,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'logicentro',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root',
         'HOST': 'localhost',  # Ou o IP do seu servidor MySQL, se estiver em outro lugar.
         'PORT': '3306',       # A porta padrão do MySQL
         'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+           'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
     }
 }
