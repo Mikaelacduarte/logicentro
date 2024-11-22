@@ -25,5 +25,5 @@ urlpatterns = [
     path('api/operacoes/', include('operacao.urls')),
     path('api/', include('confronto.urls')),
     path('api/', include('usuario.urls')),
-    path('api/auth/', include('usuario.urls')),
+    path('api/usuario/', include('usuario.urls')),
 ]

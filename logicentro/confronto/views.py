@@ -60,8 +60,8 @@ class ConfrontoViewSet(viewsets.ModelViewSet):
         if operacao.nro_lacre is not None and operacao.nro_lacre != nro_lacre:
             campos_inconsistentes.append('nro_lacre')
 
-        if comentario is None:
-            return Response({'error': 'Não é possível cadastrar um confronto sem adicionar um comentário.'}, status=status.HTTP_404_NOT_FOUND)
+        #if comentario is None:
+            #return Response({'error': 'Não é possível cadastrar um confronto sem adicionar um comentário.'}, status=status.HTTP_404_NOT_FOUND)
 
         # Definir o status do confronto com base nas inconsistências
         status_confronto = 'Concluído' if not campos_inconsistentes else 'Inconsistente'
